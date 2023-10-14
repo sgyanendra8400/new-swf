@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Heal</title>
+    <link rel="shortcut icon" href="assets/css/favicon.png" type="image/x-icon">
+
+    <link rel="stylesheet" href="assets/css/animate.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/swiper.min.css">
+    <link rel="stylesheet" href="assets/css/lightcase.css">
+
+    <!-- main css for template -->
+    <link rel="stylesheet" href="assets/css/style.min.css">
+</head>
+
+<body class="home-inner">
+
+    <!-- preloader start here -->
+    <div class="preloader">
+        <div class="preloader-inner">
+            <div class="preloader-icon">
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </div>
+    <!-- preloader ending here -->
+
+
+
+    <!-- ================> header section start here <================== -->
+    <header class="header" id="navbar">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg">
+                <a class="navbar-brand" href="index.html"><img src="assets/images/logo/02.png" alt="Heal"></a>
+                <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler--icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+                    <div class="menu">
+                        <ul>
+                            <li>
+                                <a href="#0">Home</a>
+                                <ul>
+                                    <li><a href="index.html">Home Page 1</a></li>
+                                    <li><a href="index-2.html">Home Page 2</a></li>
+                                    <li><a href="index-3.html">Home Page 3</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#0">Events</a>
+                                <ul>
+                                    <li><a href="event.html">Event</a></li>
+                                    <li><a href="event-grid.html">Event Grid View</a></li>
+                                    <li><a href="event-list.html">Event List View</a></li>
+                                    <li><a href="event-single.html">Event Details</a></li>
+                                    <li><a href="event-single2.html">Event Details 2</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#0">Gallery</a>
+                                <ul>
+                                    <li><a href="gallery.html">Gallery</a></li>
+                                    <li><a href="gallery-2.html">Gallery Style 2</a></li>
+                                    <li><a href="gallery-fluid.html">Gallery Style 3</a></li>
+                                    <li><a href="gallery-masonary.html">Gallery Style 4</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#0">Blog</a>
+                                <ul>
+                                    <li><a href="blog.html">Blog</a></li>
+                                    <li><a href="blog-single.html">Blog Details</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="contact.php" class="active">Contact</a></li>
+                        </ul>
+                    </div>
+                    <a href="causes.html" class="default-btn move-right"><span>Donate <i class="fas fa-heart"></i></span></a>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <!-- ================> header section end here <================== -->
+
+
+    <!-- ================> Page Header section start here <================== -->
+    <div class="pageheader-section">
+        <div class="container">
+            <div class="pageheader">
+                <div class="pageheader__title">
+                    <h2>Contact Us</h2>
+                </div>
+                <div class="pageheader__breadcamp">
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb">
+                          <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                          <li class="breadcrumb-item active" aria-current="page">Contact</li>
+                        </ol>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ================> Page Header section end here <================== -->
+
+
+    <!-- ================> Contact section start here <================== -->
+    <div class="contect-section padding--top padding--bottom">
+        <div class="container">
+            <div class="section-header style-2 mb-5">
+                <h2>Contact Us</h2>
+                <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
+            </div>
+            <div class="contact">
+                <div class="row">
+                    <div class="col-lg-6 col-12">
+                        <div class="contact__form">
+                            <h4 class="mb-4">Drop Us A Message</h4>
+                            <form class="d-flex flex-wrap justify-content-between" action="contact.php" id="contact-form" method="POST">
+                                <input type="text" placeholder="Your Name" id="name" name="name" required="required">
+                                <input type="text" placeholder="Your Email" id="email" name="email" required>
+                                <input class="w-100" type="text" placeholder="Subject" id="subject" name="subject" required>
+                                <textarea placeholder="Your Message" rows="4" name="message" id="message" required></textarea>
+                                <button type="submit" class="default-btn move-right"><span>submit</span></button>
+                            </form>
+                            <p class="form-message"></p> 
+                        </div> 
+                    </div>
+                    <div class="col-lg-6 col-12">
+                        <div class="contact__info">
+                            <h4>Contact Info</h4>
+                            <p>Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
+                            <ul>
+                                <li>
+                                    <div class="contact__info-left">
+                                        <i class="fas fa-map-marker-alt"></i>
+                                    </div>
+                                    <div class="contact__info-right">
+                                        <p>13/2 Elizabeth St, Melbourne VIC 3000, Australia</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="contact__info-left">
+                                        <i class="fas fa-phone-volume"></i>
+                                    </div>
+                                    <div class="contact__info-right">
+                                        <p>+61 3146 8728, +61 0987 6543</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="contact__info-left">
+                                        <i class="fas fa-envelope-open-text"></i>
+                                    </div>
+                                    <div class="contact__info-right">
+                                        <p>support@yourmailname.com</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="contact__info-left">
+                                        <i class="fas fa-globe"></i>
+                                    </div>
+                                    <div class="contact__info-right">
+                                        <p>http://yoursitename.com</p>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ================> Contact section end here <================== -->
+
+
+    <!-- ================> Google map section start here <================== -->
+    <div class="maps-section">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d423283.4355669374!2d-118.69192993092697!3d34.02073049448939!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2c75ddc27da13%3A0xe22fdf6f254608f4!2sLos%20Angeles%2C%20CA%2C%20USA!5e0!3m2!1sen!2sbd!4v1633958856057!5m2!1sen!2sbd" allowfullscreen="" loading="lazy"></iframe>
+    </div>
+    <!-- ================> Google map section end here <================== -->
+
+
+    <!-- ================> Social section start here <================== -->
+    <div class="social-section">
+        <div class="container">
+            <div class="social">
+                <ul>
+                    <li class="social__list"><a href="#" class="social__name social-facebook"><span class="social__icon"><i class="fab fa-facebook-f"></i></span> <span>facebook</span></a></li>
+                    <li class="social__list"><a href="#" class="social__name social-linkedin"><span class="social__icon"><i class="fab fa-linkedin-in"></i></span> <span>linkedin</span></a></li>
+                    <li class="social__list"><a href="#" class="social__name social-pinterest"><span class="social__icon"><i class="fab fa-pinterest-p"></i></span> <span>pinterest</span></a></li>
+                    <li class="social__list"><a href="#" class="social__name social-twitter"><span class="social__icon"><i class="fab fa-twitter"></i></span> <span>twitter</span></a></li>
+                    <li class="social__list"><a href="#" class="social__name social-google"><span class="social__icon"><i class="fab fa-google-plus-g"></i></span> <span>google</span></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- ================> Social section end here <================== -->
+
+
+    <!-- ================> Footer section start here <================== -->
+    <footer class="footer">
+        <div class="footer__top padding--top padding--bottom">
+            <div class="container">
+                <div class="row g-4 justify-content-center">
+                    <div class="col-lg-3 col-sm-6 col-12">
+                        <div class="footer__logoarea">
+                            <img src="assets/images/logo/02.png" alt="footer-logo">
+                            <p>Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora.</p>
+                            <p>Uniquely morph superior customer service whereas scalable.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 col-12">
+                        <div class="footer__post footer-title">
+                            <h3>Recent Post</h3>
+                            <ul>
+                                <li>
+                                    <div class="footer__postthumb">
+                                        <a href="blog-single.html"><img src="assets/images/footer/post/01.jpg" alt="footer-postthumb"></a>
+                                    </div>
+                                    <div class="footer__postcontent">
+                                        <a href="blog-single.html"><h6>Nam nec tellus a odio.</h6></a>
+                                        <p><i class="far fa-clock"></i> Time: 02:00 pm</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="footer__postthumb">
+                                        <a href="blog-single.html"><img src="assets/images/footer/post/02.jpg" alt="footer-postthumb"></a>
+                                    </div>
+                                    <div class="footer__postcontent">
+                                        <a href="blog-single.html"><h6>Uniquely impact focused..</h6></a>
+                                        <p><i class="far fa-clock"></i> Time: 02:00 pm</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="footer__postthumb">
+                                        <a href="blog-single.html"><img src="assets/images/footer/post/03.jpg" alt="footer-postthumb"></a>
+                                    </div>
+                                    <div class="footer__postcontent">
+                                        <a href="blog-single.html"><h6>Nam nec tellus a odio.</h6></a>
+                                        <p><i class="far fa-clock"></i> Time: 02:00 pm</p>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 col-12">
+                        <div class="footer__gallery footer-title">
+                            <h3>Gallery Post</h3>
+                            <ul>
+                                <li>
+                                    <div class="footer__gallerythumb">
+                                        <a href="assets/images/footer/gallery/01.jpg" data-rel="lightcase"><img src="assets/images/footer/gallery/01.jpg" alt="footer-gallerythumb"></a>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="footer__gallerythumb">
+                                        <a href="assets/images/footer/gallery/02.jpg" data-rel="lightcase"><img src="assets/images/footer/gallery/02.jpg" alt="footer-gallerythumb"></a>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="footer__gallerythumb">
+                                        <a href="assets/images/footer/gallery/03.jpg" data-rel="lightcase"><img src="assets/images/footer/gallery/03.jpg" alt="footer-gallerythumb"></a>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="footer__gallerythumb">
+                                        <a href="assets/images/footer/gallery/04.jpg" data-rel="lightcase"><img src="assets/images/footer/gallery/04.jpg" alt="footer-gallerythumb"></a>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="footer__gallerythumb">
+                                        <a href="assets/images/footer/gallery/05.jpg" data-rel="lightcase"><img src="assets/images/footer/gallery/05.jpg" alt="footer-gallerythumb"></a>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="footer__gallerythumb">
+                                        <a href="assets/images/footer/gallery/06.jpg" data-rel="lightcase"><img src="assets/images/footer/gallery/06.jpg" alt="footer-gallerythumb"></a>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="footer__gallerythumb">
+                                        <a href="assets/images/footer/gallery/07.jpg" data-rel="lightcase"><img src="assets/images/footer/gallery/07.jpg" alt="footer-gallerythumb"></a>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="footer__gallerythumb">
+                                        <a href="assets/images/footer/gallery/08.jpg" data-rel="lightcase"><img src="assets/images/footer/gallery/08.jpg" alt="footer-gallerythumb"></a>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="footer__gallerythumb">
+                                        <a href="assets/images/footer/gallery/09.jpg" data-rel="lightcase"><img src="assets/images/footer/gallery/09.jpg" alt="footer-gallerythumb"></a>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 col-12">
+                        <div class="footer__info footer-title">
+                            <h3>Contact Info</h3>
+                            <p>Nam nec tellus a odio tincidunt auctor a ornare odio. </p>
+                            <ul>
+                                <li><i class="fas fa-home"></i> 13/2 Elizabeth St, Dimond steet Inner distric Road.</li>
+                                <li><i class="fas fa-phone-alt"></i> +880 1234567895 +880 9874321457</li>
+                                <li><i class="fas fa-envelope"></i> contact@yourmail.com</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer__bottom">
+            <div class="container">
+                <div class="row g-4 justify-content-center">
+                    <div class="col-lg-6 col-12">
+                        <div class="footer__copyright">
+                            <p>&copy; Heal 2021, All Right Reserves | Powered By <a href="https://themeforest.net/user/codexcoder">CodexCoder</a></p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-12">
+                        <div class="footer__social">
+                            <ul>
+                                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fab fa-dribbble"></i></a></li>
+                                <li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
+                                <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- ================> Footer section end here <================== -->
+
+
+    <!-- scrollToTop start here -->
+    <a href="#" class="scrollToTop"><i class="fas fa-arrow-up"></i><span class="pluse_1"></span><span class="pluse_2"></span></a>
+    <!-- scrollToTop ending here -->
+
+
+
+    
+
+    <!-- vendor plugins -->
+    <script src="assets/js/jquery-3.6.0.min.js"></script>
+    <!-- <script src="assets/js/parallax.min.js"></script> -->
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/waypoints.min.js"></script>
+    <script src="assets/js/all.min.js"></script>
+    <script src="assets/js/swiper.min.js"></script>
+    <script src="assets/js/lightcase.js"></script>
+    <script src="assets/js/isotope.pkgd.min.js"></script>
+    <script src="assets/js/jquery.counterup.min.js"></script>
+    <script src="assets/js/wow.js"></script>
+    <script src="assets/js/custom.js"></script>
+</body>
+</html>
